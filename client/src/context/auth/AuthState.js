@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 import AuthContext from './authContext';
-import authReducer from './authtReducer';
+import authReducer from './authReducer';
 
 import {
   REGISTER_SUCCESS,
@@ -32,7 +32,7 @@ const AuthState = (props) => {
 
   // Logout
 
-  //   Clear Errors
+  //  Clear Errors
 
   return (
     <AuthContext.Provider
