@@ -15,6 +15,7 @@ import ContactState from './context/contact/ContactState';
 import AuthState from './context/auth/AuthState';
 import AlertState from './context/alert/AlertState';
 
+// localstorage token setup
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
